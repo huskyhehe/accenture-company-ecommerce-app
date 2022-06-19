@@ -70,10 +70,10 @@ public class SearchController {
         boolean exactMatch = false;
 
         if(query.startsWith("\"") && query.endsWith("\"")) {
-            exactMatch = true;
+            exactMatch = true;                                  // Extract the quotes
             query = query.substring(1, query.length() - 1);
         } else {
-            query = query.toLowerCase();
+            query = query.toLowerCase();                        // Handle case-insensitivity by converting to lowercase first
         }
 
         for (ProductItem item : allItems) {
@@ -83,7 +83,7 @@ public class SearchController {
             if (exactMatch) {
                 nameMatch =query.equals(item.getName());
                 descriptionMatch = query.equals(item.getDescription());
-            } else {
+            } else {                                           // ignore case check, normalize everything to lowercase
                 nameMatch = item.getName().toLowerCase().contains(query);
                 descriptionMatch = item.getDescription().toLowerCase().contains(query);
             }
