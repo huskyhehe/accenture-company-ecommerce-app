@@ -23,3 +23,13 @@ Read through the tests to get an idea of how search should work.  When the tests
 https://spockframework.org/spock/docs/2.0/spock_primer.html
 
 For an added challenge, update the ProductItemRepository to do the filtering at the database layer :)
+
+### Resources
+- Spring Boot Web Development  
+https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#web
+ 
+- Spock Unit Testing  
+https://spockframework.org/spock/docs/2.0/spock_primer.html
+
+- Gradle Builds  
+https://docs.gradle.org/current/userguide/userguide.html
