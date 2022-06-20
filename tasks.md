@@ -8,10 +8,10 @@ One of the UX designers at Accenture has already implemented the new search capa
 - The request should take a single parameter named “query” which will be the text that was entered in the search bar
 - The request will return a Collection of ProductItem which are the matching products for the search.
 
-## TODO
+## To-Do List
 - [x] Implement the “search” method of the class SearchController
 - [x] The controller should use the “productItemRepository” to interface with the product database
-- [x] By using Test Driven Development, we've already written the specification for how the controller should work. It's your responsibility to review the tests and implement the controller to the spec.
+- [x] We Use Test Driven Development. It's your responsibility to review the tests and implement the controller to the spec.
 
 ## Tips
 The easiest implementation will be to use the findAll as we are below. Then filter using Java string methods such as contains(...), toLowerCase(...), equals(...), etc.  
