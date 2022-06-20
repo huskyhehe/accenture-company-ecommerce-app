@@ -1,4 +1,4 @@
-# Task 1: OOD
+# Task 1: Implementing a search API
 ## Background
 Accenture is a Global Fortune 500 company that provides consulting and processing services across many different domains. Software Engineers at Accenture may work on a vast range of programming languages and frameworks. Recently, a company has brought on Accenture to help with the development of its e-commerce website written in Java using the Spring Boot framework. The first task they need help with is searching for products.
 
