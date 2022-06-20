@@ -9,7 +9,7 @@ One of the UX designers at Accenture has already implemented the new search capa
 - The request will return a Collection of ProductItem which are the matching products for the search.
 
 ## TODO
-- [x] Implement the “search” method of the class SearchController, the relevant code is outlined with a TODO comment
+- [x] Implement the “search” method of the class SearchController
 - [x] The controller should use the “productItemRepository” to interface with the product database
 - [x] By using Test Driven Development, we've already written the specification for how the controller should work. It's your responsibility to review the tests and implement the controller to the spec.
 
