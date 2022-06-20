@@ -9,9 +9,9 @@ One of the UX designers at Accenture has already implemented the new search capa
 - The request will return a Collection of ProductItem which are the matching products for the search.
 
 ## TODO
-- Implement the “search” method of the class SearchController, the relevant code is outlined with a TODO comment
-- The controller should use the “productItemRepository” to interface with the product database
-- By using Test Driven Development, we've already written the specification for how the controller should work. It's your responsibility to review the tests and implement the controller to the spec.
+- [x] Implement the “search” method of the class SearchController, the relevant code is outlined with a TODO comment
+- [x] The controller should use the “productItemRepository” to interface with the product database
+- [x] By using Test Driven Development, we've already written the specification for how the controller should work. It's your responsibility to review the tests and implement the controller to the spec.
 
 ## Tips
 The easiest implementation will be to use the findAll as we are below. Then filter using Java string methods such as contains(...), toLowerCase(...), equals(...), etc.  
@@ -22,4 +22,3 @@ Read through the tests to get an idea of how search should work.  When the tests
 https://spockframework.org/spock/docs/2.0/spock_primer.html
 
 For an added challenge, update the ProductItemRepository to do the filtering at the database layer :)
-
