@@ -42,13 +42,14 @@ You’ve recently implemented a new search API for them and now we’ve identifi
 - SearchController and ReportController both updated to use the SearchService
 - All unit tests pass
 
-In Spring, controllers are used to provide functionality over the web. Services, on the other hand, provide functionality that can be reused anywhere throughout an application. In this case, the controllers will be refactored to use a shared service. In this task you’ll need to do the following:
-
 ### To-Do List
 - [x] Create the new SearchService class in the “services” package. All of the search logic from the SearchController should be moved into a function in this class for reusability. 
 - [x] Using @Autowired, inject the SearchService into the SearchController and ReportController.
 - [x] Refactor both controller classes to use the service by rewriting their functions to use the new service.
 - [x] Ensure unit tests all pass
+
+### Tips
+In Spring, controllers are used to provide functionality over the web. Services, on the other hand, provide functionality that can be reused anywhere throughout an application. In this case, the controllers will be refactored to use a shared service. 
 
 ### Resources
 - Spring Boot Web Development  
