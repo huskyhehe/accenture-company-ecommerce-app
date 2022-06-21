@@ -21,7 +21,6 @@ One of the UX designers at Accenture has already implemented the new search capa
 
 - Read through the tests to get an idea of how search should work.  When the tests are written before the code, it is known as Test Driven Development (TDD) and is a common best practice. The Spock framework is a great framework for TDD because the tests are written very descriptively using sentences.  
 https://spockframework.org/spock/docs/2.0/spock_primer.html
-<<<<<<< HEAD
 
 - For an added challenge, update the ProductItemRepository to do the filtering at the database layer :)
 
@@ -82,5 +81,3 @@ In Spring, controllers are used to provide functionality over the web. Services,
 ### Resources
 -  SpringBoot Service Tutorial  
 https://www.tutorialspoint.com/spring_boot/spring_boot_service_components.htm
-=======
->>>>>>> 60bf752c07e7833a8800d3c5a78aaadedae67fe3
