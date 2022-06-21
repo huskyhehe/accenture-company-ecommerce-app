@@ -34,6 +34,11 @@ https://spockframework.org/spock/docs/2.0/spock_primer.html
 - Gradle Builds  
 https://docs.gradle.org/current/userguide/userguide.html
 
+<<<<<<< refactor
+For an added challenge, update the ProductItemRepository to do the filtering at the database layer :)
+
+
+
 ## Task 2: Code Refactoring
 ### Background
 You’ve recently implemented a new search API for them and now we’ve identified some code in the ReportController class that seems to be doing similar product searching. You will need to refactor the SearchController logic into a new SearchService class that can be used in the SearchController as well as in the ReportController. Your changes must meet the following requirements:
