@@ -21,5 +21,3 @@ The requirements are defined in `src/test/groovy/com/mockcompany/webapp/controll
 
 Read through the tests to get an idea of how search should work.  When the tests are written before the code, it is known as Test Driven Development (TDD) and is a common best practice. The Spock framework is a great framework for TDD because the tests are written very descriptively using sentences.  
 https://spockframework.org/spock/docs/2.0/spock_primer.html
-
-For an added challenge, update the ProductItemRepository to do the filtering at the database layer :)
