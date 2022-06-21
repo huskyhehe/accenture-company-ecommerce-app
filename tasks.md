@@ -35,7 +35,7 @@ https://spockframework.org/spock/docs/2.0/spock_primer.html
 https://docs.gradle.org/current/userguide/userguide.html
   
 <br>
- 
+
 ## Task 2: Code Refactoring
 ### Background
 You’ve recently implemented a new search API for them and now we’ve identified some code in the ReportController class that seems to be doing similar product searching. You will need to refactor the SearchController logic into a new SearchService class that can be used in the SearchController as well as in the ReportController. Your changes must meet the following requirements:
@@ -56,3 +56,32 @@ In Spring, controllers are used to provide functionality over the web. Services,
 ### Resources
 -  SpringBoot Service Tutorial  
 https://www.tutorialspoint.com/spring_boot/spring_boot_service_components.htm
+
+
+<br>
+
+## Task 3: Code Refactoring
+### Background
+Continuous Integration is the practice of automating the integration of code changes from multiple contributors into a single software project. It's a primary DevOps best practice, allowing developers to frequently merge code changes into a central repository where building and test runs can occur. In this task, we’re going to be using the most popular Continuous Integration tool, Jenkins. We’ll be creating a Jenkinsfile that will build and test the application on all branches of the repository.
+
+### To-Do List
+- [x] Install the Pipelines application from the GitHub marketplace to use Jenkins directly or use the Simulated Jenkins for GitHub link to add a .github/workflows/workflow.yml to the repository.
+- [x] Add the following stages to the Jenkinsfile, the relevant code is outlined with a TODO comment.
+    - Build: ./gradlew assemble
+    - Test: ./gradlew test
+- [x] Continue to tweak the Jenkinsfile until the build is successful
+- [x] Change the SearchService to always return Collections.emptyList() in order to break the tests.
+- [x] Commit the change and validate the Continuous Integration build fails. This proves that we’ve properly set up Continuous Integration guard rails, that will catch failing tests each time a commit is made by a developer!
+
+### Tips
+Jenkins is the most popular Continuous Integration server in the world. In this task, you will be defining your build steps using the Jenkinsfile format. You will run these using a Jenkins Cloud Instance for GitHub or simulating Jenkins using the Jenkinsfile Runner Action in a GitHub Workflow. 
+
+### Resources
+- Jenkins
+https://www.jenkins.io/
+
+- Pipeline Syntax
+https://www.jenkins.io/doc/book/pipeline/syntax/#declarative-steps
+
+- Simulate Jenkins for Github App
+https://github.com/jenkinsci/jenkinsfile-runner-github-actions#how-to-use-the-action
