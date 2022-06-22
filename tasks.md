@@ -60,7 +60,7 @@ https://www.tutorialspoint.com/spring_boot/spring_boot_service_components.htm
 
 <br>
 
-## Task 3: Code Refactoring
+## Task 3: Continuous Integration
 ### Background
 Continuous Integration is the practice of automating the integration of code changes from multiple contributors into a single software project. It's a primary DevOps best practice, allowing developers to frequently merge code changes into a central repository where building and test runs can occur. In this task, we’re going to be using the most popular Continuous Integration tool, Jenkins. We’ll be creating a Jenkinsfile that will build and test the application on all branches of the repository.
 
