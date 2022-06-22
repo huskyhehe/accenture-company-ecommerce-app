@@ -9,7 +9,7 @@ const styles = () => {
     toolBar: {
       height: "100%",
       width: "inherit",
-      backgroundColor: "pink",
+      backgroundColor: "#e0e0e0",
       justifyContent: "space-evenly"
     },
     searchContainer: {
@@ -18,14 +18,20 @@ const styles = () => {
   searchInput: {
       color: "black",
       width: "50vw",
+      height: "3rem",
+      paddingleft: "1rem",
+      marginTop: "1rem",
+      marginBottom: "1rem",
       backgroundColor: "white",
-      borderTopLeftRadius: "8px",
-      borderBottomLeftRadius: "8px",
+      borderRadius: "8px",
   },
   searchButton: {
-    width: "fit-content",
+    width: "3rem",
+    height: "3rem",
     border: "solid 2px gray",
-    borderLeft: "none"
+    marginTop: "1rem",
+    marginBottom: "1rem",
+    marginLeft: "1rem",
 
   },
   showAllBtn: {
