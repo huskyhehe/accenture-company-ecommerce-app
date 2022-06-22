@@ -77,11 +77,11 @@ Continuous Integration is the practice of automating the integration of code cha
 Jenkins is the most popular Continuous Integration server in the world. In this task, you will be defining your build steps using the Jenkinsfile format. You will run these using a Jenkins Cloud Instance for GitHub or simulating Jenkins using the Jenkinsfile Runner Action in a GitHub Workflow. 
 
 ### Resources
-- Jenkins
+- Jenkins  
 https://www.jenkins.io/
 
-- Pipeline Syntax
+- Pipeline Syntax  
 https://www.jenkins.io/doc/book/pipeline/syntax/#declarative-steps
 
-- Simulate Jenkins for Github App
+- Simulate Jenkins for Github App  
 https://github.com/jenkinsci/jenkinsfile-runner-github-actions#how-to-use-the-action
