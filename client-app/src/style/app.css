@@ -21,11 +21,11 @@
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat; 
-    margin: 2.5vh 0;
   }
 
   label {
     padding: 0 0 0 2vw;
+    padding-left: 10px;
   }
 
   .mag {
@@ -40,5 +40,4 @@
 
   .search-input label {
     color: darkgray;
-    margin-left: 1rem;
   }

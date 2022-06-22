@@ -19,11 +19,12 @@ const styles = () => {
       color: "black",
       width: "50vw",
       height: "3rem",
-      paddingleft: "1rem",
+      padding: "3px 10px 3px",
       marginTop: "1rem",
       marginBottom: "1rem",
       backgroundColor: "white",
       borderRadius: "8px",
+      
   },
   searchButton: {
     width: "3rem",
