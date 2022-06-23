@@ -19,9 +19,6 @@ const styles = () => {
       color: "black",
       width: "50vw",
       height: "3rem",
-      padding: "3px 10px 3px",
-      marginTop: "1rem",
-      marginBottom: "1rem",
       backgroundColor: "white",
       borderRadius: "8px",
       
@@ -30,8 +27,6 @@ const styles = () => {
     width: "3rem",
     height: "3rem",
     border: "solid 2px gray",
-    marginTop: "1rem",
-    marginBottom: "1rem",
     marginLeft: "1rem",
 
   },

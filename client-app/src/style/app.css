@@ -23,11 +23,6 @@
     background-repeat: no-repeat; 
   }
 
-  label {
-    padding: 0 0 0 2vw;
-    padding-left: 10px;
-  }
-
   .mag {
     background-image: url(../images/mag.png);
     width: 5vh;
@@ -38,6 +33,11 @@
     padding: 1rem;
   }
 
+  .searchInput {
+    padding: 1rem;
+  }
+
   .search-input label {
     color: darkgray;
+    margin-left: 1rem;
   }
